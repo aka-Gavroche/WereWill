@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,400;1,700&display=swap');
+
+@import "zero_style.scss";
+
+@import "blocks/main-flex-wrapper.scss";
+
+@import "blocks/wrapper.scss";
+
+@import "blocks/header.scss";
+
+@import "blocks/main.scss";
+
+@import "blocks/home.scss";
+
+@import "blocks/footer.scss";
+
+@import "blocks/chat-button.scss";
+
+@import "blocks/chat.scss";
+
+@import "blocks/about.scss";
+
+@import "blocks/albums-container.scss";
+
+@import "blocks/album.scss";
+
+@import "blocks/video-block.scss";
+
+@import "blocks/video-container.scss";
+
+@import "blocks/video-list.scss";
+
+
+body {
+    height: 100%;
+    background: url('../IMG/Site-background.jpg') center/cover no-repeat fixed;
+    color: #fff;
+    font-style: Arial,Helvetica,sans-serif;
+    font-family: 'Bitter', serif;
+    font-size: 1rem;
+}
+
+a {
+    color: inherit;
+}

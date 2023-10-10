@@ -1,0 +1,13 @@
+.main {
+   display: flex;
+   align-items: center;
+
+   &__content {
+      height: 100%;
+      width: 100%;
+      
+      &_hide{
+         display: none;
+      }
+   }
+}

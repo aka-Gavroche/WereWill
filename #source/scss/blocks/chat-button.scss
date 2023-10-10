@@ -1,0 +1,40 @@
+.chat-button {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    padding: 12px 18px;
+    border-radius: 25px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+
+    background-color: #f2d5a0;
+    transition: all 0.4s 0s;
+    z-index: 5;
+    
+    &__icon {
+        width: 25px;
+        img {
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__text {
+        color: #000;
+        font-size: 1.125rem;
+        font-weight: 700;
+    }
+
+    &:hover {
+        cursor: pointer;
+        background-color: #efc880;
+        box-shadow: 0px 0px 5px 3px #000;
+    }
+
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

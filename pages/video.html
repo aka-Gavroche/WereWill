@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=no">
+    <title>Video</title>
+    <!--Icon-->
+    <link rel="icon" href="..\IMG\favicon.ico">
+    <!--CSS-->
+    <link rel="stylesheet" href="..\CSS\style.css">
+</head>
+<body>
+    <!--Wrapper - загальна обгортка сторінки -->
+    <div class="wrapper">
+        <div class="main-flex-wrapper">
+            <!--Header-->
+            <header class="header main-flex-wrapper__header">
+                <div class="header__row">
+                    <div class="header__column">
+                        <div class="header__burger">
+                            <span></span>
+                        </div>
+                        <ul class="header__pages-links">
+                            <div class="header__close-button">X</div>
+                            <li><a href="..\index.html">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="gallery.html">Gallery</a></li>
+                            <li class="header__pages-link_active"><a href="video.html">Video</a></li>
+                            <li><a href="about.html">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__column">
+                        <div class="header__social-links">
+                            <div class="header__social-link">
+                                <a href="#">
+                                    <img src="..\IMG\header\facebook.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header__social-link">
+                                <a href="#">
+                                    <img src="..\IMG\header\instagram.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--Main-->
+            <main class="main main-flex-wrapper__main">
+                <div class="main__content">
+                    <div class="video-block">
+                        <div class="video-container">
+                            <div class="video-container__wrapper">
+                                <div class="video-container__video">
+                                    <iframe src="https://www.youtube.com/embed/sy4DdvgNBzo" title="76th Regiment of the Strategic Missile Forces, communication center bunker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                                <div class="video-container__list-button video-container__list-button_open">
+                                    <span>
+                                        More video's
+                                    </span>
+                                </div>
+                            </div>  
+                            
+                            <!--відтворити структуру із двома блоками вище
+                              --для модального вікна вибору відео-->
+                            <div class="video-container__list video-list">
+                                <div class="video-list__wrapper">
+                                    <div class="video-list__video">
+                                        <iframe src="https://www.youtube.com/embed/sy4DdvgNBzo" title="76th Regiment of the Strategic Missile Forces, communication center bunker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-list__video">
+                                        <iframe src="https://www.youtube.com/embed/ckwY65mu9bU" title="76th Regiment of the Strategic Missile Forces, Command Post." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-list__video">
+                                        <iframe src="https://www.youtube.com/embed/D--xdZRFyB8" title="76th Regiment of the Strategic Missile Forces, Nuclear Cellar." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-list__video">
+                                        <iframe src="https://www.youtube.com/embed/sy4DdvgNBzo" title="76th Regiment of the Strategic Missile Forces, communication center bunker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-list__video">
+                                        <iframe src="https://www.youtube.com/embed/sy4DdvgNBzo" title="76th Regiment of the Strategic Missile Forces, communication center bunker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                    <div class="video-list__video">
+                                        <iframe src="https://www.youtube.com/embed/sy4DdvgNBzo" title="76th Regiment of the Strategic Missile Forces, communication center bunker." frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="video-container__list-button video-container__list-button_close">
+                                    <span>Close</span>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+            </main>
+            <!--Footer-->
+            <footer class="footer main-flex-wrapper__footer">
+                <p>© 2024 Werewill-team</p>
+            </footer>
+        </div>
+    </div>
+    <!--Chat-button-->
+    <div class="chat-button">
+        <div class="chat-button__icon">
+            <img src="..\IMG\chat-button\chat-buton__icon.png" alt="">
+        </div>
+        <div class="chat-button__text">Let's chat!</div>
+    </div>
+
+    <!--Chat-->
+    <div class="chat">
+        <div class="chat__header">
+            <div class="chat__close-button">X</div>
+        </div>
+        <div class="chat__body"></div>
+        <div class="chat__footer"></div>
+    </div>
+
+    <!--JavaScript-->
+    <script src="..\JS\blocks\header.js"></script>
+    <script src="..\JS\blocks\chat.js"></script>
+    <script src="..\JS\blocks\about.js"></script>
+    <script src="..\JS\blocks\video.js"></script>
+</body>
+</html>
